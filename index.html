@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>J&T Cargo - HOME</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link href="foto/icon.png" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .tooltipku {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+        }
+        
+        .tooltipku .tooltiptext {
+            visibility: hidden;
+            background-color: white;
+            color: black;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            padding-top: 51px;
+            padding-bottom: 55px;
+            padding-left: 50px;
+            padding-right: 50px;
+            position: absolute;
+            z-index: 9999;
+            top: 0;
+            right: 110%;
+            font-size: 12pt;
+        }
+        
+        .tooltipku .tooltiptext::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 100%;
+            margin-top: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent transparent transparent black;
+        }
+        
+        .tooltipku:hover .tooltiptext {
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-whitee navbar-light sticky-top p-0" id="navbar">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-2">
+            <h1 class="m-0"><img src="foto/logo.png" width="150px"></h1>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">HOME</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">LAYANAN</a>
+                    <div class="dropdown-menu bg-white m-0">
+                        <a href="#" class="dropdown-item">Produk Layanan</a>
+                        <a href="#" class="dropdown-item">Jaminan Layanan</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">INFORMASI</a>
+                    <div class="dropdown-menu bg-white m-0">
+                        <a href="#" class="dropdown-item">Masalah Umum</a>
+                        <a href="#" class="dropdown-item">Informasi Paket</a>
+                        <a href="#" class="dropdown-item">Syarat</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">HUBUNGI KAMI</a>
+                    <div class="dropdown-menu bg-white m-0">
+                        <a href="#" class="dropdown-item">Kerjasama Franchise</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">TENTANG KAMI</a>
+                    <div class="dropdown-menu bg-white m-0">
+                        <a href="#" class="dropdown-item">Profil Perusahaan</a>
+                        <a href="#" class="dropdown-item">Rekrutmen</a>
+                    </div>
+                </div>
+                <a href="#" class="nav-item nav-link"><i class="fa fa-user"></i> Masuk</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-globe"></i> Indonesia</a>
+                    <div class="dropdown-menu bg-white m-0">
+                        <a href="#" class="dropdown-item">English</a>
+                    </div>
+                </div>
+                <div class="navbar-nav p-6 p-lg-0">
+                    <a href="https://fti.unai.edu/" class="nav-item nav-link active">FTI UNAI</a>
+                </div>
+
+                <div class="navbar-nav p-6 p-lg-0">
+                    <a href="https://unai.edu/" class="nav-item nav-link active">UNAI</a>
+                </div>
+                <div class="navbar-nav p-6 p-lg-0">
+                    <a href="biodata.html" class="nav-item nav-link active">BIODATA</a>
+                </div>
+                <div class="navbar-nav p-6 p-lg-0">
+                    <a href="contactus.html" class="nav-item nav-link active">CONTACT US</a>
+                </div>
+                <div class="navbar-nav p-6 p-lg-0">
+                    <a href="free.html" class="nav-item nav-link active">FREE</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="foto/slider1.jpg" height="800px;object-fit:cover" alt="Image">
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="foto/slider2.jpg" height="800px;object-fit:cover" alt="Image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid kotakatas py-5 pt-lg-0">
+        <div class="container py-5 pt-lg-0">
+            <div class="row justify-content-center gx-0">
+                <div class="col-lg-10 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="bg-white shadow align-items-center h-100 px-5" style="min-height: 210px;">
+                        <div class="row h-100">
+                            <div class="col-sm-12 my-auto">
+                                <div class="row">
+                                    <div class="col-md-9 col-12 my-auto">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Lacak waybill" style="padding-top: 10px;padding-bottom: 15px;">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-success" type="button">
+                                                    <i class="fa fa-search" style="padding: 15px;"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1 col-4 mt-3 mb-2">
+                                        <div class="text-center">
+                                            <i class="fa fa-download fa-2x text-primary"></i>
+                                            <p>Buat Pesanan</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1 col-4 mt-3 mb-2">
+                                        <div class="text-center">
+                                            <i class="fa fa-map-marker-alt fa-2x text-primary"></i>
+                                            <p>Lacak Outlet</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1 col-4 mt-3 mb-2">
+                                        <div class="text-center">
+                                            <i class="fa fa-clock fa-2x text-primary"></i>
+                                            <p>Cek Ongkir</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 400px;">
+                <h1 class="display-5 mb-5 text-dark">Produk Layanan</h1>
+            </div>
+            <div class="layanantambahan">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-4 wow fadeIn" data-wow-delay="0.3s">
+                        <div class="rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);border-bottom: 8px solid green;">
+                            <div style="height: 300px">
+                                <h2><i class="fa fa-clock" style="font-size: 35pt"></i> Layanan SLA</h2>
+                                <br>
+                                <p class="text-left">
+                                    Termasuk pengiriman tepat waktu antar kota via darat, proses operasional yang efisien dan profesional, hotline eksklusif, tracking setiap saat, dan pengiriman dengan SLA terjamin.
+                                </p>
+                            </div>
+                            <br>
+                            <hr>
+                            <div style="height: 100px">
+                                <br>
+                                <br>
+                                <p class="text-left">
+                                    Sistem tracking yang detail
+                                </p>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);border-bottom: 8px solid green;">
+                            <div style="height: 300px">
+                                <h2><i class="fa fa-box" style="font-size: 35pt"></i> Kargo Kecil</h2>
+                                <br>
+                                <p class="text-left">
+                                    Memasuki pasar grosir paket kecil, terutama layanan pengiriman produk fashion, elektronik 3C, kosmetik, makanan segar, perangkat keras (mur dan baut) dan produk chain store lainnya di seluruh Indonesia, keberangkatan tepat waktu, prioritas transit dan
+                                    delivery, prioritas pengiriman, pengantaran barang hingga lantai atas tanpa ragu.
+                                </p>
+                            </div>
+                            <br>
+                            <hr>
+                            <div style="height: 100px">
+                                <br>
+                                <br>
+                                <p class="text-left">
+                                    H50 (Barang dengan berat di bawah 50 kg)
+                                    <br> H100 (Barang dengan berat 50-100 kg)
+                                </p>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow fadeIn" data-wow-delay="0.7s">
+                        <div class="rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);border-bottom: 8px solid green;">
+                            <div style="height: 300px">
+                                <h2><i class="fa fa-truck" style="font-size: 35pt"></i> Kargo Standar</h2>
+                                <br>
+                                <p class="text-left">
+                                    Harga yang ekonomis dan prosedur operasional yang standar, layanan pengiriman pintu ke pintu yang aman, tepat waktu, dan efisien dengan harga yang terjangkau.
+                                </p>
+                            </div>
+                            <br>
+                            <hr>
+                            <div style="height: 100px">
+                                <br>
+                                <br>
+                                <p class="text-left">
+                                    H300 (Barang dengan berat 100-300 kg)
+                                    <br> H500 (Barang dengan berat 300 kg)
+                                </p>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="layanantambahanhp">
+                <ul class="nav nav-pills mb-3 justify-content-between" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Layanan SLA</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Kargo Kecil</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Kargo Standar</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);border-bottom: 8px solid green;">
+                            <div style="height: 300px">
+                                <h2><i class="fa fa-clock" style="font-size: 35pt"></i> 100% Kualitas</h2>
+                                <br>
+                                <p class="text-left">
+                                    Termasuk pengiriman tepat waktu antar kota via darat, proses operasional yang efisien dan profesional, hotline eksklusif, tracking setiap saat, dan pengiriman dengan SLA terjamin.
+                                </p>
+                            </div>
+                            <br>
+                            <hr>
+                            <div style="height: 100px">
+                                <br>
+                                <br>
+                                <p class="text-left">
+                                    Sistem tracking yang detail
+                                </p>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);border-bottom: 8px solid green;">
+                            <div style="height: 300px">
+                                <h2><i class="fa fa-box" style="font-size: 35pt"></i> Kargo Kecil</h2>
+                                <br>
+                                <p class="text-left">
+                                    Memasuki pasar grosir paket kecil, terutama layanan pengiriman produk fashion, elektronik 3C, kosmetik, makanan segar, perangkat keras (mur dan baut) dan produk chain store lainnya di seluruh Indonesia, keberangkatan tepat waktu, prioritas transit dan
+                                    delivery, prioritas pengiriman, pengantaran barang hingga lantai atas tanpa ragu.
+                                </p>
+                            </div>
+                            <br>
+                            <hr>
+                            <div style="height: 100px">
+                                <br>
+                                <br>
+                                <p class="text-left">
+                                    H50 (Barang dengan berat di bawah 50 kg)
+                                    <br> H100 (Barang dengan berat 50-100 kg)
+                                </p>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <div class="rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);border-bottom: 8px solid green;">
+                            <div style="height: 300px">
+                                <h2><i class="fa fa-truck" style="font-size: 35pt"></i> Kargo Standar</h2>
+                                <br>
+                                <p class="text-left">
+                                    Harga yang ekonomis dan prosedur operasional yang standar, layanan pengiriman pintu ke pintu yang aman, tepat waktu, dan efisien dengan harga yang terjangkau.
+                                </p>
+                            </div>
+                            <br>
+                            <hr>
+                            <div style="height: 100px">
+                                <br>
+                                <br>
+                                <p class="text-left">
+                                    H300 (Barang dengan berat 100-300 kg)
+                                    <br> H500 (Barang dengan berat 300 kg)
+                                </p>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="background-image: url('foto/bgabu.webp');" class="mt-5 mb-5">
+        <div class="container-xxl">
+            <div class="container">
+                <div class="layanantambahan">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="row pt-3">
+                                <div class="col-md-3">
+                                    <div class="btn-lg-square bg-success" style="padding: 50px">
+                                        <i class="fa fa-handshake text-white fa-4x"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-9 my-auto">
+                                    <h2 class="display-5 mb-4">
+                                        Layanan tambahan</h2>
+                                    <span>Memberikan layanan yang profesional, akurat dan efisien</span>
+                                </div>
+                            </div>
+                            <br>
+                            <hr>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-4 col-6 mb-3">
+                                    <div class="row">
+                                        <div class="col-md-2 col-2">
+                                            <i class="fa fa-check fa-1x text-primary" style="border-radius: 50px;border:1px green solid;padding:5px"></i>
+                                        </div>
+                                        <div class="col-md-10 col-10">
+                                            Kargo Standar
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-6 mb-3">
+                                    <div class="row">
+                                        <div class="col-md-2 col-2">
+                                            <i class="fa fa-check fa-1x text-primary" style="border-radius: 50px;border:1px green solid;padding:5px"></i>
+                                        </div>
+                                        <div class="col-md-10 col-10">
+                                            Kemasan aman
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-6 mb-3">
+                                    <div class="row">
+                                        <div class="col-md-2 col-2">
+                                            <i class="fa fa-check fa-1x text-primary" style="border-radius: 50px;border:1px green solid;padding:5px"></i>
+                                        </div>
+                                        <div class="col-md-10 col-10">
+                                            Pengembalian tanda terima
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-6 mb-3">
+                                    <div class="row">
+                                        <div class="col-md-2 col-2">
+                                            <i class="fa fa-check fa-1x text-primary" style="border-radius: 50px;border:1px green solid;padding:5px"></i>
+                                        </div>
+                                        <div class="col-md-10 col-10">
+                                            Layanan Warehouse
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-6 mb-3">
+                                    <div class="row">
+                                        <div class="col-md-2 col-2">
+                                            <i class="fa fa-check fa-1x text-primary" style="border-radius: 50px;border:1px green solid;padding:5px"></i>
+                                        </div>
+                                        <div class="col-md-10 col-10">
+                                            Perwakilan Penerimaan Paket
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-6 mb-3">
+                                    <div class="row">
+                                        <div class="col-md-2 col-2">
+                                            <i class="fa fa-check fa-1x text-primary" style="border-radius: 50px;border:1px green solid;padding:5px"></i>
+                                        </div>
+                                        <div class="col-md-10 col-10">
+                                            Layanan gabungan warehouse dan distribusi
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="foto/layanantambahan.jpg" width="100%" height="450px">
+                        </div>
+                    </div>
+                </div>
+                <div class="layanantambahanhp">
+                    <div class="row align-items-center pt-5 pb-5">
+                        <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="display-5 mb-4 text-center">
+                                        Layanan tambahan</h2>
+                                    <span>Memberikan layanan yang profesional, akurat dan efisien</span>
+                                </div>
+                            </div>
+                            <br>
+                            <img src="foto/layanantambahan.jpg" width="100%" height="450px">
+                            <br>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-4 col-6 mb-3">
+                                    <div class="row">
+                                        <div class="col-md-2 col-2">
+                                            <i class="fa fa-check fa-1x text-primary" style="border-radius: 50px;border:1px green solid;padding:5px"></i>
+                                        </div>
+                                        <div class="col-md-10 col-10">
+                                            Kargo Standar
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-6 mb-3">
+                                    <div class="row">
+                                        <div class="col-md-2 col-2">
+                                            <i class="fa fa-check fa-1x text-primary" style="border-radius: 50px;border:1px green solid;padding:5px"></i>
+                                        </div>
+                                        <div class="col-md-10 col-10">
+                                            Kemasan aman
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-6 mb-3">
+                                    <div class="row">
+                                        <div class="col-md-2 col-2">
+                                            <i class="fa fa-check fa-1x text-primary" style="border-radius: 50px;border:1px green solid;padding:5px"></i>
+                                        </div>
+                                        <div class="col-md-10 col-10">
+                                            Pengembalian tanda terima
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-6 mb-3">
+                                    <div class="row">
+                                        <div class="col-md-2 col-2">
+                                            <i class="fa fa-check fa-1x text-primary" style="border-radius: 50px;border:1px green solid;padding:5px"></i>
+                                        </div>
+                                        <div class="col-md-10 col-10">
+                                            Layanan Warehouse
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-6 mb-3">
+                                    <div class="row">
+                                        <div class="col-md-2 col-2">
+                                            <i class="fa fa-check fa-1x text-primary" style="border-radius: 50px;border:1px green solid;padding:5px"></i>
+                                        </div>
+                                        <div class="col-md-10 col-10">
+                                            Perwakilan Penerimaan Paket
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-6 mb-3">
+                                    <div class="row">
+                                        <div class="col-md-2 col-2">
+                                            <i class="fa fa-check fa-1x text-primary" style="border-radius: 50px;border:1px green solid;padding:5px"></i>
+                                        </div>
+                                        <div class="col-md-10 col-10">
+                                            Layanan gabungan warehouse dan distribusi
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="display-5 mb-5 text-dark">Jaminan Pelayanan</h1>
+            </div>
+            <center>
+                <div class="layanantambahan">
+                    <div class="owl-carousel pelayanan-carousel">
+                        <div class="pelayanan-item">
+                            <div class="row g-4 align-items-center mb-3">
+                                <div class="col-md-4 wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="gambar">
+                                        <img src="foto/1.jpg" style="width:100%;height: 400px;">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="gambar">
+                                        <img src="foto/2.jpg" style="width:100%;height: 400px;">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 wow fadeIn" data-wow-delay="0.7s">
+                                    <div class="gambar">
+                                        <img src="foto/3.jpg" style="width:100%;height: 400px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pelayanan-item">
+                            <div class="row g-4 align-items-center">
+                                <div class="col-md-4 wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="gambar">
+                                        <img src="foto/4.jpg" style="width:100%;height: 400px;">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="gambar">
+                                        <img src="foto/5.jpg" style="width:100%;height: 400px;">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 wow fadeIn" data-wow-delay="0.7s">
+                                    <div class="gambar">
+                                        <img src="foto/6.jpg" style="width:100%;height: 400px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="layanantambahanhp">
+                    <div class="row g-4 align-items-center mb-3">
+                        <div class="col-md-4 col-6 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="gambar">
+                                <img src="foto/1.jpg" style="width:100%;height: 275px;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-6 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="gambar">
+                                <img src="foto/2.jpg" style="width:100%;height: 275px;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-6 wow fadeIn" data-wow-delay="0.7s">
+                            <div class="gambar">
+                                <img src="foto/3.jpg" style="width:100%;height: 275px;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-6 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="gambar">
+                                <img src="foto/4.jpg" style="width:100%;height: 275px;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-6 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="gambar">
+                                <img src="foto/5.jpg" style="width:100%;height: 275px;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-6 wow fadeIn" data-wow-delay="0.7s">
+                            <div class="gambar">
+                                <img src="foto/6.jpg" style="width:100%;height: 275px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </div>
+    </div>
+    <div class="layanantambahan">
+        <div style="background-image: url('foto/kota2.png');height: 400px;margin-top: -400px;">
+
+        </div>
+    </div>
+    <div style="background-color:#f5fafa">
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="display-5 mb-4 text-center">Smart Logistics</h1>
+                        <p class="mb-4 text-center">J&T Cargo berkomitmen untuk menyediakan layanan logistik yang smart, digital, dan visual kepada pelanggan. Sistem JFS yang dikembangkan sendiri mengintegrasikan dan mengelola seluruh paket secara online.</p>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                        <img src="foto/smart.jpg" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-light footer wow fadeIn" data-wow-delay="0.1s" style="background-color:#1a2b36;border-bottom: 1px solid #818181;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="row">
+                        <div class="col-md-2 col-2">
+                            <i class="fa fa-phone fa-2x text-white"></i>
+                        </div>
+                        <div class="col-md-10 col-10">
+                            <p class="text-white" style="font-size: 11pt">021-80661666</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="row">
+                        <div class="col-md-2 col-2">
+                            <i class="fa fa-envelope fa-2x text-white"></i>
+                        </div>
+                        <div class="col-md-10 col-10">
+                            <p class="text-white" style="font-size: 11pt">jntcare@jtcargo.id</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="row">
+                        <div class="col-md-1 col-1">
+                            <i class="fa fa-map-marker-alt fa-2x text-white"></i>
+                        </div>
+                        <div class="col-md-11 col-11">
+                            <p class="text-white" style="font-size: 11pt">Landmark Pluit, Jl. Pluit Selatan Raya No.2, RT.4/RW.10, Pluit, Kec. Penjaringan, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14450</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid copyright py-1" style="background-color:#1a2b36">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10 text-center mt-3">
+                    <p style="font-size:9pt">© 2021 Global J&T Cargo All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ikonkanan">
+        <div class="whatsapp text-center tooltipku shadow" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"><i class="fab fa-whatsapp fa-3x" style="color: #00b075;">
+            <a class="tooltiptext shadow" href="https:wa.me/628118106166" target="_blank">08118106166</a>
+        </i>
+            <br><span style="color: black">WhatsApp</span></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $(window).scroll(function() {
+            if ($(window).scrollTop() >= 50) {
+                $('.navbar').css('background', 'white');
+            } else {
+                $('.navbar').css('background', 'transparent');
+            }
+        });
+        let tooltipInstances;
+
+        window.onload = function() {
+            M.FloatingActionButton.init(document.querySelectorAll('.fixed-action-btn'));
+            tooltipInstances = M.Tooltip.init(document.querySelectorAll('.tooltipped'));
+            window.addEventListener('scroll', () => {
+                for (let i = 0; i < tooltipInstances.length; ++i) {
+                    tooltipInstances[i]._positionTooltip();
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
